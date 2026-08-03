@@ -1,0 +1,20 @@
+METFORMIN SAFETY APP: MANAGEMENT GUIDE
+======================================
+
+1. RE-ACCESSING THE APP
+- URL: Access via your custom share.streamlit.io link.
+- Admin: Manage at https://share.streamlit.io
+
+2. UPDATING THE APP
+- Edit your local files on your MacBook.
+- Run these terminal commands:
+    git add .
+    git commit -m "Updated features"
+    git push origin main
+- Streamlit Cloud updates automatically upon detecting the GitHub push.
+
+3. KEY FILES
+- demo_app.py: The frontend UI.
+- pipeline_logic.py: The pharmaceutical calculation engine.
+- requirements.txt: The cloud installation manifest.
+- metformin_risk_model.joblib: The AI model weights.
